@@ -1,0 +1,8 @@
+/* components/test3/test3.wxss */
+.box{
+  line-height: 200rpx;
+  font-size: 24rpx;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 2rpx black;
+}

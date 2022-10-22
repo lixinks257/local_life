@@ -1,0 +1,10 @@
+/* components/load-more/load-more.wxss */
+.loading {
+  display: flex;
+  justify-content: center;
+
+}
+
+.own {
+  margin: 17rpx;
+}

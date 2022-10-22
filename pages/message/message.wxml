@@ -1,0 +1,25 @@
+<!--pages/message/message.wxml-->
+<!-- <text>pages/message/message.wxml</text>
+<view>父组件中msg的值： {{msg}}</view>
+<button type="primary" bindtap="changeMsg">修改msg</button>
+<test-a msg="{{msg}}"></test-a> -->
+<!-- <test-c></test-c> -->
+<!-- <my-test4>
+  <view slot="before">before</view>
+  <view slot="after">after</view>
+</my-test4> -->
+<view>父组件的count： {{count}}</view>
+<button bindtap="getChild" type="primary">获取子组件方法</button>
+<view>------</view>
+<!-- bindsync或者bind:sync 自定义事件 -->
+<my-test5 bind:sync="syncCount" class="com1" id="a1"></my-test5>
+<view>--vant组件---</view>
+<van-button type="primary" bindtap="getData">通过promise化，获取数</van-button>
+<van-button type="info"> 按钮</van-button>
+<van-icon name="close" />
+<van-icon name="chat" info="99+" size="50px"/>
+
+<view>----获取store数据---</view>
+<view> {{numA}} + {{numB}} = {{sum}}</view>
+
+

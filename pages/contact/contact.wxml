@@ -1,0 +1,7 @@
+<!--pages/contact/contact.wxml-->
+<view> {{numA}} + {{numB}} = {{sum}}</view>
+<van-button type="primary" bindtap="btnHandler" data-step="{{1}}">numA + 1</van-button>
+<van-button type="danger" bindtap="btnHandler" data-step="{{-1}}">numA - 1</van-button>
+
+<view>--将store属性绑定到组件中--</view>
+<my-test6></my-test6>

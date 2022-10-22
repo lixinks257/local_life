@@ -1,0 +1,4 @@
+<!--components/load-more/load-more.wxml-->
+<view class="loading" hidden="loadingMore" style="{{!loadingMore ? 'display: none' : 'display: flex' }}">
+  <van-loading size="30rpx" vertical custom-class="own">加载中...</van-loading>
+</view>

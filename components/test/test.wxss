@@ -1,0 +1,8 @@
+/* components/test/test.wxss */
+/* view{
+  color: red;
+} */
+/* 组件样式最好采用class去隔离 */
+.own{
+  color: red;
+}

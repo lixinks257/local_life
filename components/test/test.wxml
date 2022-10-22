@@ -1,0 +1,8 @@
+<!--components/test/test.wxml-->
+<view class="own">test组件</view>
+<view class="own">MSG传递过来的值是： {{msg}}</view>
+<view>count： {{count}}</view>
+
+<button bindtap="addCount" type="primary">+1</button>
+<button bindtap="changeObj" type="primary">修改对象</button>
+
