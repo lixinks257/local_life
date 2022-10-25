@@ -28,4 +28,4 @@
 
 9. css:flex+css+css3
 
-10.使用wxs(类似vue-minxin)封装公共方法
+10. 使用wxs(类似vue-minxin)封装公共方法
