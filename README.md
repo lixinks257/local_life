@@ -27,3 +27,5 @@
 8. 组件中使用behaviors,slot实现组件的代码复用和自定义填充
 
 9. css:flex+css+css3
+
+10.使用wxs(类似vue-minxin)封装公共方法
